@@ -110,10 +110,11 @@ body {
   min-width: 772px;
   display: flex;
   margin: auto;
+  position: absolute;
 }
 
 .articles {
-  width: 777px;
+  width: 772px;
   display: flex;
   flex-direction: column;
 }
