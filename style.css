@@ -85,7 +85,7 @@ body {
 }
 
 .description {
-  width: 1200px;
+  min-width: 1167px;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -95,7 +95,7 @@ body {
 }
 
 .heading {
-  width: 679px;
+  max-width: 679px;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -106,12 +106,12 @@ body {
 }
 
 .main {
-  width: 1200px;
+  min-width: 1167px;
   position: absolute;
 }
 
 .articles {
-  width: 1000px;
+  min-width: 1021px;
   display: flex;
   flex-direction: column;
 }
