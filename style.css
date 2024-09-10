@@ -20,11 +20,12 @@
 
 body {
   font-family: "Open Sans";
+  height: 100vh;
 }
 
 .header {
   width: 100%;
-  height: 446px;
+  height: 43%;
 }
 
 .container {
@@ -85,7 +86,7 @@ body {
 }
 
 .description {
-  min-width: 1167px;
+  min-width: 679px;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -106,18 +107,19 @@ body {
 }
 
 .main {
-  min-width: 1167px;
-  position: absolute;
+  min-width: 772px;
+  display: flex;
+  margin: auto;
 }
 
 .articles {
-  min-width: 1021px;
+  width: 777px;
   display: flex;
   flex-direction: column;
 }
 
 .section {
-  width: 770px;
+  width: 362px;
   margin-left: 200px;
   margin-top: 57px;
   display: flex;
@@ -205,6 +207,7 @@ body {
 }
 
 .line {
-  color: #b59f5b;
   width: 100px;
 }
+
+
