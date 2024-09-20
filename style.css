@@ -29,6 +29,7 @@ body {
 
 .container {
   width: 100%;
+  min-width: 1167px;
   display:flex;
   flex-direction: column;
   margin: auto;
@@ -105,15 +106,21 @@ body {
   color: #ffffff;
 }
 
-.main {
-  min-width: 772px;
+.box {
   display: flex;
+  flex-direction: row;
+  max-width: 1167px;
   margin: auto;
-  position: relative;
+  justify-content: space-between;
+}
+
+.main {
+  width: 66%;
+  display: flex;
 }
 
 .articles {
-  width: 772px;
+  min-width: 772px;
   display: flex;
   flex-direction: column;
 }
@@ -182,14 +189,13 @@ body {
 }
 
 .aside {
-  width: 272px;
+  min-width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
   float: right;
-  margin-right: 200px;
   margin-top: 63px;
-  position: relative;
+
 }
 
 .news {
