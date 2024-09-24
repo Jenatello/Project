@@ -208,21 +208,38 @@ body {
   text-transform: uppercase;
   color: #0f0d0e;
   font-weight: 700;
+  text-align: center;
 }
 
 .line {
-  width: 100px;
+  margin-bottom: 50px;
 }
 
 .news__posts {
   display: flex;
   flex-direction: row;
+  gap: 18px;
+  text-align: left;
+  justify-content: center;
 }
 
 .post__foto {
   width: 71px;
 }
 
+.news__date {
+  opacity: 0.6;
+  font-size: 12px;
+  line-height: 40px;
+  color: #000000;
+  font-weight: 400;
+}
+
 .news__subjeading {
   width: 180px;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
 }
