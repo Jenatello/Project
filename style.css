@@ -200,6 +200,7 @@ body {
 .news {
   display: flex;
   flex-direction: column;
+  margin-bottom: 59px;
 }
 
 .title {
@@ -221,10 +222,11 @@ body {
   gap: 18px;
   text-align: left;
   justify-content: center;
+  margin-bottom: 21px;
 }
 
 .post__foto {
-  width: 71px;
+  width: 80px;
 }
 
 .news__date {
@@ -237,9 +239,73 @@ body {
 
 .news__subjeading {
   width: 180px;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
   color: #000000;
+  font-weight: 700;
+}
+
+.search {
+  width: 278px;
+  margin-bottom: 61px;
+}
+
+.form__search {
+  width: 278px;
+  display: flex;
+  flex-direction: row;
+}
+
+.field {
+  width: 229px;
+  padding: 10px;
+  border: none;
+  background-color: #f4f7f6;
+}
+
+.button {
+  width: 49px;
+  height: 49px;
+  background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/search.svg);
+  background-size: 18px;
+  background-position: center;
+  background-color: #b59f5b;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.emails {
+  width: 278px;
+  margin-bottom: 61px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field__email {
+  width: 278px;
+  height: 29px;
+  padding: 10px;
+  border: none;
+  background-color: #f4f7f6;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.form__search-suscribe {
+  display: block;
+  flex-direction: column;
+}
+
+.button__suscribe {
+  width: 278px;
+  height: 49px;
+  padding: 5px;
+  background: #b59f5b;
+
+  font-size: 14px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
   font-weight: 700;
 }
